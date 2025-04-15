@@ -1,10 +1,23 @@
 # ProgettoCroceRossa
-Progetto Croce Rossa Itis Mario Delpozzo con Federico Collino,Simone Siccardi Diego Borio, 
+Progetto Croce Rossa Itis Mario Delpozzo con Federico Collino,Simone Siccardi,Diego Borio.
 
-PROTOCOLLO CROCE ROSSA.
-Sul drive ho provato a metterti l’access che usiamo al momento, che però dovremo dismettere.
-Quello che stiamo cercando è un programma di Registrazione dei file in arrivo/partenza.
-Arriva una mail con allegato da salvare, di norma lo stampiamo e gli diamo un numero di protocollo sul programma per averne memoria digitale.
-La stessa cosa quando inviamo dei documenti, li stampiamo, scansioniamo e gli assegnamo un numero di protocollo in partenza.
-La numerazione al momento è unica: dal 1/01 dell’anno corrente indifferente se in uscita o in partenza; si può anche studiare di avere due sequenze di numeri crescenti, per l’arrivo e per la partenza.
-Quello che ci preme è avere un programma che tenga in memoria sul nas i documenti e poterli richiamare dal numero di protocollo.
+Questo progetto è un'applicazione Laravel per la gestione dei protocolli in entrata e uscita.  
+Permette di registrare documenti, assegnare un numero di protocollo progressivo e archiviare i file su NAS, con possibilità di ricerca e consultazione.
+
+## ✨ Funzionalità principali
+
+- Registrazione documenti **in entrata** e **in uscita**
+- **Numerazione automatica** dei protocolli (formato `001/2025`)
+- Salvataggio dei file su NAS in cartelle annuali
+- Ricerca per numero di protocollo o oggetto
+- Interfaccia semplice pensata per uso amministrativo
+
+## 🛠 Tecnologie utilizzate
+
+- Laravel 10+
+- Blade (interfaccia base)
+- MySQL / SQLite
+- File system locale o NAS montato
+
+
+
